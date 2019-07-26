@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0149099322EB32C9001665B2 /* RNThermalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149099222EB32C9001665B2 /* RNThermalState.swift */; };
-		B3E7B58A1CC2AC0600A0062D /* RNThermalState.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNThermalState.m */; };
+		0149099522EB3859001665B2 /* RNThermalStateBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0149099422EB3859001665B2 /* RNThermalStateBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +26,8 @@
 /* Begin PBXFileReference section */
 		0149099122EB32C9001665B2 /* RNThermalState-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNThermalState-Bridging-Header.h"; sourceTree = "<group>"; };
 		0149099222EB32C9001665B2 /* RNThermalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNThermalState.swift; sourceTree = "<group>"; };
+		0149099422EB3859001665B2 /* RNThermalStateBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNThermalStateBridge.m; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libRNThermalState.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNThermalState.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNThermalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNThermalState.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNThermalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNThermalState.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +52,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				0149099422EB3859001665B2 /* RNThermalStateBridge.m */,
 				0149099222EB32C9001665B2 /* RNThermalState.swift */,
-				B3E7B5881CC2AC0600A0062D /* RNThermalState.h */,
-				B3E7B5891CC2AC0600A0062D /* RNThermalState.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				0149099122EB32C9001665B2 /* RNThermalState-Bridging-Header.h */,
 			);
@@ -119,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNThermalState.m in Sources */,
+				0149099522EB3859001665B2 /* RNThermalStateBridge.m in Sources */,
 				0149099322EB32C9001665B2 /* RNThermalState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
